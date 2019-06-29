@@ -21,7 +21,7 @@ namespace GitHubProjeDenemesi
         private void UIProjectMembersShow_Load(object sender, EventArgs e)
         {
             MemberTaker memberTaker = new MemberTaker();
-
+            MessageBox.Show("Üyeler");
             List<string> projectMembersName = memberTaker.TakeProjectMembersNames();
 
             foreach (var projectMemberName in projectMembersName)
